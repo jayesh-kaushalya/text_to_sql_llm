@@ -1,0 +1,13 @@
+prefix=/home/jayesh/Downloads/text_to_sql_llm/venv
+exec_prefix=/home/jayesh/Downloads/text_to_sql_llm/venv
+libdir=/home/jayesh/Downloads/text_to_sql_llm/venv/lib
+sharedlibdir=/home/jayesh/Downloads/text_to_sql_llm/venv/lib
+includedir=/home/jayesh/Downloads/text_to_sql_llm/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
